@@ -115,6 +115,9 @@ a:focus {
 .frame__links a:not(:last-child),
 .frame__demos a:not(:last-child) {
 	margin-right: 1rem;
+	font-family: fieldwork-hum, sans-serif;
+	text-transform: none;
+	color: rgba(204,204,204,1);
 }
 
 .frame__demos {
@@ -282,6 +285,7 @@ a:focus {
 	margin: 10vh 0 4rem 0;
 	position: relative;
 	line-height: 1.5;
+	overflow:  ;
 }
 
 .item__content-text::after {
@@ -352,7 +356,7 @@ a:focus {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		overflow: visible;
+		overflow: auto;
 	}
 	.item__content-title {
 		font-size: 4vw;
